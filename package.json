@@ -1,0 +1,16 @@
+{
+  "name": "dsh-test",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A minimal Node.js starter using pnpm",
+  "license": "MIT",
+  "type": "module",
+  "packageManager": "pnpm@11.7.0",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  }
+}
